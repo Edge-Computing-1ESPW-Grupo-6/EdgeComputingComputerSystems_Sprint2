@@ -51,20 +51,24 @@ E também será necessário um kit básico de componentes físicos do Arduino, d
     <td align=center>1</td>
   </tr>
   <tr>
-    <td>Resistor 220Ω</td>
-    <td align=center>1</td>
+    <td>Resistor 1kΩ</td>
+    <td align=center>3</td>
   </tr>
     <tr>
     <td>Piezo</td>
     <td align=center>1</td>
   </tr>
   <tr>
-    <td>LED Vermelho</td>
+    <td>LCD 16x2</td>
     <td align=center>1</td>
   </tr>
   <tr>
     <td>Sensor de distância ultrassonico</td>
     <td align=center>1</td>
+  </tr>
+  <tr>
+    <td>Cabos jumpers</td>
+    <td align=center>-</td>
   </tr>
 </table>
 
