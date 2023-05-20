@@ -15,9 +15,9 @@ ___
 <img src="Challenge_2023_2ª_Sprint.png">
 
 ### Descrição do Projeto
-Após a apresentação da primeira sprint, contento a ideia base do circuito de hardware do nosso projeto para a Challenge 2023, proposta para a IBM, nesta segunda sprint fizemos a montagem prática do circuito em ambiente de testagem para replicação em ambiente físico. O circuito se trata de um sensor de proximidade idealizado para ser instalado em bueiros de ruas com o objetivo de detectar objetos e detritos que venham a ficar presos na entreda do bueiro, indicando assim a sua obstrução.
+Após a apresentação da primeira sprint, contento a ideia base do circuito de hardware do nosso projeto para a Challenge 2023, proposta pela IBM, nesta segunda sprint fizemos a montagem prática do circuito em ambiente de testagem para replicação em ambiente físico. O circuito se trata de um sensor de proximidade idealizado para ser instalado em bueiros de ruas com o objetivo de detectar objetos e detritos que venham a ficar presos na entreda do bueiro, indicando assim a sua obstrução.
 
-Dessa forma, será possível, artravés dos alertas emitidos pelo sensor, identificar quais bueiros precisam de manutenção para evitar, ou mesmo minimizar, a ocorrência de enchentes e alagamentos na região. Além disso, em conjunto com as demais funcionalidades do projeto (sendo abordadas com mais detalhes em outras disciplinas), permite a emissão de um alerta ainda mais preciso acerca de regiões apresentando riscos para alagamentos em enchentes.
+Dessa forma, será possível, através dos alertas emitidos pelo sensor, identificar quais bueiros precisam de manutenção para evitar, ou mesmo minimizar, a ocorrência de enchentes e alagamentos na região. Além disso, será possível priorizar entre diversos bueiros que estejam emitindo alertas. Isso tudo em conjunto com as demais funcionalidades do projeto (sendo abordadas com mais detalhes em outras disciplinas), permite a emitir um alerta ainda mais preciso acerca de regiões apresentando riscos para alagamentos em enchentes.
 ___
 ### Desenvolvimento do projeto
 O projeto foi desaenvolvido utilizando o ambiente de testes Autodesk Tinkercad, para a elaboração de protótipos e testagem de circuitos e códigos, e o programa Arduino, juntamente com seus componentes físicos, para a montagem efetiva do circuito.
@@ -29,11 +29,11 @@ ___
 ### Funcionamento do projeto
 O funcionamento do projeto na prática acontece da seguinte forma:
 1. O circuito é montado e instalado na entrada de um bueiro localizado em vias urbanas com recorrência de enchentes e alagamentos
-2. O sensor de proximidade faz a leitura constante do espaço onde se encontra instalado
-    - A leitura padrão está configurada para 50cm, tamanho médio da entrada de um bueiro, mas pode ser ajustada de acordo com a necessidade
-3. Ao detectar a presença de um objeto na área escaneada, o sensor irá emitir alertas, indicando que algo se encontra obstruindo a entrada do bueiro
-    - Esses alertas por padrão estão definidos como um alerta sonoro (utilizando um Piezo) e um alerta visual (utilizando um Led) para melhor demonst ração prática, mas podem ser definidos como um alerta digital ou em qualquer outro formato, de acordo com a necessidade apresentada
-4. Após a remoção o objeto detectado na entrada do bueiro, o sensor continua sua leitura
+2. O sensor de proximidade faz a leitura constante do espaço onde se encontra instalado;
+    - A leitura padrão está configurada para 50cm, tamanho médio da entrada de um bueiro, mas pode ser ajustada de acordo com a necessidade;
+3. Ao detectar a presença de um objeto na área escaneada, o sensor irá emitir alertas, indicando que algo se encontra obstruindo a entrada do bueiro;
+    - Esses alertas por padrão estão definidos como um alerta sonoro (utilizando um Piezo) e um alerta visual (utilizando um LCD) para melhor demonstração prática, mas podem ser definidos como um alerta digital ou em qualquer outro formato, de acordo com a necessidade apresentada.
+4. Após a remoção o objeto detectado na entrada do bueiro, o sensor continua sua leitura.
 ___
 ### Como executar o projeto
   Para executar o projeto serão necessários os seguintes softwares:

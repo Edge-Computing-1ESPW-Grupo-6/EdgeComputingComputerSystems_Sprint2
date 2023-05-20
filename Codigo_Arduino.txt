@@ -94,12 +94,12 @@ void acionarAlertas(){
     Serial.println("Bueiro desobstruido");
     }
   else if (alerta == 1) {
-    tone(buzzerPin,600);
+    tone(buzzerPin,200);
     Serial.println();
     Serial.println("Objeto a " + String(distance) + "cm");
   }
   else if (alerta == 2) {
-    tone(buzzerPin,600);
+    tone(buzzerPin,400);
     Serial.println();
     Serial.println("Objeto a " + String(distance) + "cm");
   }
